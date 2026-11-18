@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Website launched]]>
+    </line>
+    <line>
+      <![CDATA[Hoverover accountlist]]>
+    </line>
+    <line>
+      <![CDATA[Clickonsignin successful]]>
+    </line>
+    <line>
+      <![CDATA[Emailid entered]]>
+    </line>
+    <line>
+      <![CDATA[Password entered]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-11-18T17:15:25 IST" name="Suite" finished-at="2026-11-18T17:15:48 IST" duration-ms="22857">
+    <groups>
+    </groups>
+    <test started-at="2026-11-18T17:15:25 IST" name="Test" finished-at="2026-11-18T17:15:48 IST" duration-ms="22857">
+      <class name="amazon.Tc1_LoginToAmazon">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:amazon.Tc1_LoginToAmazon@4d5d943d]" started-at="2026-11-18T17:15:25 IST" name="launchBrowser" finished-at="2026-11-18T17:15:28 IST" duration-ms="3247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="validcred()[pri:0, instance:amazon.Tc1_LoginToAmazon@4d5d943d]" started-at="2026-11-18T17:15:28 IST" name="validcred" finished-at="2026-11-18T17:15:34 IST" duration-ms="5932" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Website launched]]>
+            </line>
+            <line>
+              <![CDATA[Hoverover accountlist]]>
+            </line>
+            <line>
+              <![CDATA[Clickonsignin successful]]>
+            </line>
+            <line>
+              <![CDATA[Emailid entered]]>
+            </line>
+            <line>
+              <![CDATA[Password entered]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validcred -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:amazon.Tc1_LoginToAmazon@4d5d943d]" started-at="2026-11-18T17:15:34 IST" name="quitBrowser" finished-at="2026-11-18T17:15:48 IST" duration-ms="13649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- amazon.Tc1_LoginToAmazon -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
